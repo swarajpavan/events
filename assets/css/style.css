@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+body {
+    background-color: #b0adad;
 }
 
-.box{
+.box {
     height: 300px;
     width: 300px;
     margin: 15px;
@@ -16,34 +16,24 @@ body{
     background-repeat: no-repeat;
     border: none;
     padding: 20px;
-    overflow:hidden;
-    
-   
-	position:relative;
-    
+    overflow: hidden;
+    position: relative;
 }
 
-
-
-
-.allcars{
+.allcars {
     padding: 100px;
 }
 
-
-.box img{
+.box img {
     height: 300px;
     width: 300px;
     object-fit: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    margin: 15px;   
 }
 
-.form-control{
+.form-control {
     border: 2px solid black;
     color: black;
     font-weight: bold;
-    
 }
-

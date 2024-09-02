@@ -1,19 +1,14 @@
- 
-const selectcars = document.getElementById("selectcars");
-
-const companies = [...document.querySelectorAll('.cars')]
-
+const selectedCars = document.getElementById("selectCars");
+const companies = [...document.querySelectorAll('.allcars')];
 
 const oncolorchange = (eve) => {
-   let selectedcolor = eve.target.value;
+   let selectedColor = eve.target.value;
 
+   companies.forEach(div => div.classList.add('d-none'));
 
-   alldivs.forEach(div => div.classList.add('d-none'));
+   let selectedDiv = [...document.querySelectorAll("." + selectedColor)];
 
-   let selecteddiv = [...document.querySelectorAll("."+selectedcolor)];
-
-   selecteddiv.forEach(div => div.classList.remove('d-none'))
-
+   selectedDiv.forEach(div => div.classList.remove('d-none'));
 }
 
-selectrosecolor.addEventListener('change' , oncolorchange)
+selectedCars.addEventListener('change', oncolorchange);
