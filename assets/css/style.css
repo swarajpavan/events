@@ -1,12 +1,38 @@
-body{
-    background-color: #2a0835c8;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-.text-white1{
-    text-align: center;
+body {
+    background-color: #bbbababb;
 }
-#stdform i {
-    cursor: pointer;
-    font-size: 30px;
+
+.box {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .allcars {
+    padding: 100px;
+} */
+
+.box img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    background-repeat: no-repeat;  
+}
+
+.form-control {
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
 }
